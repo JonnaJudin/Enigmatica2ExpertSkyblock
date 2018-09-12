@@ -10,7 +10,7 @@ print("--- loading ExtremeReactors.zs ---");
 	<bigreactors:reactorcontroller>, 
 	[[<nuclearcraft:fission_block>, <tconstruct:large_plate>.withTag({Material: "lead"}), <nuclearcraft:fission_block>],
 	[<ore:plateUranium>, <ic2:te:22>, <ore:plateUranium>], 
-	[<nuclearcraft:fission_block>, <nuclearcraft:fission_controller_new_idle>, <nuclearcraft:fission_block>]]);
+	[<nuclearcraft:fission_block>, <nuclearcraft:fission_controller_new_fixed>, <nuclearcraft:fission_block>]]);
 
 # Reactor Casing
 	recipes.remove(<bigreactors:reactorcasing>);
